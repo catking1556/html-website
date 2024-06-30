@@ -1,0 +1,102 @@
+
+  * {
+  box-sizing: border-box;}
+  div{width: 60%; }
+  header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  
+}
+
+.nadpis{
+  font-size: 45px;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+li{
+  padding-bottom: 2px;
+}
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+nav {
+  float: left;
+  width: 15%;
+   /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+  margin-right: 10px;
+  text-align: center;
+}
+article {
+  float: left;
+  padding: 20px;
+  width: 75%;
+  background-color: #f1f1f1;
+  margin-bottom: auto;
+ 
+
+   /* only for demonstration, should be removed */
+}
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  margin-top: auto;}
+  
+  html, body {
+    height: 100%;
+    margin: 0;
+}
+a{text-decoration-line: none;
+
+
+}
+#horror{width: 25%;}
+#horror2{width: 25%;}
+.levo{float: left;margin: 1%;border-radius: 10%;}
+.pravo{float: right; margin: 1%;border-radius: 10%;width:20%; }
+.textik{clear: both;border-radius: 25px; background-color: #ccc ; padding: 10px; width: 100%; margin-bottom: 1%;content: "";
+  clear: both;
+  display: table;}
+button{
+  width: 100px;
+  margin-bottom:  3px;
+}
+
+.responsive {width:100%;}
+button:hover{background-color: #666}
+a:visited{color: red;}
+.sekce{background-color: aqua; border-radius: 25px;padding: 20px;}
+@media screen and (max-width: 2400px) {
+  /*body {
+    background-color: blue;
+    color: white;
+  }*/
+  button{width: 100%; height: auto; font-size: 100%; padding: 10px;}
+  
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 890px) {
+ /* body {
+    background-color: olive;
+    color: white;
+  }*/
+  nav,button{width: 100%; height: auto; font-size:medium; padding: 10px;}
+  nav{width: 20%;};
+ 
+ 
+  ;
+}
+
+
