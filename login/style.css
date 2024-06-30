@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(./img/caucasus-5299607_1920.jpg);
+    background-position:center;
+    background-size:cover;
+    height: 90vh;
+    color: white;
+}
+.login{
+    width: 280px;
+    height: 370px;
+    background-color: rgba(7, 7, 7, 0.436);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 40px 25px;
+    border-radius: 25px;
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    
+    
+}
+.login h1{
+    background-color: rgb(1, 45, 244, 0.5);
+    border-radius: 6px;
+    margin: 0;
+    padding: 10px;
+    font-size: 20px;
+}
+.login p{font-size: 15px;}
+.login input{
+    width: 100%;
+    margin-bottom: 18px;
+    border-radius: 4px;
+    background-color: rgb(1, 45, 244, 0.5);
+    color: white;
+    font-size: 20px;
+}
+.login a{
+text-decoration: none;
+font-size: 20px;
+text-shadow: 1px 1px white;
+color: rgb(1, 45, 244, 0.5);
+}
